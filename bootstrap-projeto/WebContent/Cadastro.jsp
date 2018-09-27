@@ -19,25 +19,25 @@
 				
 					<div class="form-group">
 						<label for="nome">Nome completo</label> <input type="text"
-							class="form-control" id="nome" nome="nome" size="70" autofocus required>
+							class="form-control" id="nome" name="nome" size="70" autofocus required>
 					</div>
 					<div class="form-group">
 						<label for="login">Usuário</label> <input type="text"
-							class="form-control" id="login" nome="login" requisired>
+							class="form-control" id="login" name="login" requisired>
 					</div>
 					<div class="form-group">
 						<label for="senha2">Senha</label> <input type="password"
-							class="form-control" id="senha1" nome="senha1" requisired>
+							class="form-control" id="senha1" name="senha1" requisired>
 					</div>
 					<div class="form-group">
 						<label for="senha2">Repita a senha</label>
-						<input type="password" class="form-control" id="senha2" nome="senha2" requisired>
+						<input type="password" class="form-control" id="senha2" name="senha2" requisired>
 					</div>
 				</div>
 
 				<fieldset>
 					</div>
-					<input type="subimit" class="btn btn-primary" value="Confirmar">
+					<input type="submit" class="btn btn-primary" value="Confirmar">
 				</fieldset>			
 			</form>
 </body>
